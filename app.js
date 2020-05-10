@@ -1,7 +1,7 @@
 const App=require('koa')
 const parser=require('koa-bodyparser')
-const InitManager=require('./core/init')
-const CatchError=require('./middlewares/exception')
+const InitManager=require('./app/core/init')
+const CatchError=require('./app/middlewares/exception')
 
 const app=new App()
 //全局捕获异常
